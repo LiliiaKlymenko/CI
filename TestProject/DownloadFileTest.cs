@@ -16,12 +16,12 @@ namespace TestProject
 			#region Test data
             string fileName = null;
 			string address = "https://dl.dropboxusercontent.com/u/98396761/NewTxt.txt";
-            string path = Directory.GetCurrentDirectory() + "NewTxt.txt";           
+            string path = "NewTxt.txt";           
             if (File.Exists(path))
             {
                 fileName = @path + "- Copy";
             }
-			fileName = @path;  
+			else fileName = @path;  
 			#endregion
 
 			DownloadFile.downloadFileFromURL(address, fileName);
