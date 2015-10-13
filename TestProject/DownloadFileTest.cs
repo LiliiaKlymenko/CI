@@ -15,11 +15,13 @@ namespace TestProject
 		{
 			#region Test data
 			string address = "https://dl.dropboxusercontent.com/u/98396761/NewTxt.txt";
-            string fileName = @"C:\Users\Liliia_Klymenko\NewTxt.txt";          
+            string path = Directory.GetCurrentDirectory() + "NewTxt.txt";
+			string fileName = @path;  
 			#endregion
 
 			DownloadFile.downloadFileFromURL(address, fileName);
-			Assert.IsTrue(File.Exists(fileName));           
+			Assert.IsTrue(File.Exists(fileName));
+          
 		}
 	}
 }
