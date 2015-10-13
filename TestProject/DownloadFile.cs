@@ -16,8 +16,7 @@ namespace TestProject
 				webClient.DownloadFile(address, @fileName);
 				Console.WriteLine("Successfully Downloaded File \"{0}\" from \"{1}\"", fileName, address);
 				string appDirectory = Environment.CurrentDirectory;
-				Console.WriteLine("\nThe file is saved at:\t" + fileName);
-				Console.ReadLine();
+				Console.WriteLine("\nThe file is saved at:\t" + fileName);				
 			}
 
 		}
