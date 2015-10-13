@@ -15,8 +15,7 @@ namespace TestProject
 		{
 			#region Test data
 			string address = "https://dl.dropboxusercontent.com/u/98396761/NewTxt.txt";
-            string path =  Path.GetTempPath() + "NewTxt.txt";
-            string fileName = @path;          
+            string fileName = @"C:\Users\Liliia_Klymenko\NewTxt.txt";          
 			#endregion
 
 			DownloadFile.downloadFileFromURL(address, fileName);
