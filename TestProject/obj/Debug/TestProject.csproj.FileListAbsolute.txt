@@ -1,0 +1,9 @@
+C:\Project1\Temp\TestProject\TestProject\bin\Debug\TestProject.dll
+C:\Project1\Temp\TestProject\TestProject\bin\Debug\TestProject.pdb
+C:\Project1\Temp\TestProject\TestProject\obj\Debug\TestProject.dll
+C:\Project1\Temp\TestProject\TestProject\obj\Debug\TestProject.pdb
+C:\Users\Liliia_Klymenko\Desktop\TestProject\TestProject\bin\Debug\TestProject.dll
+C:\Users\Liliia_Klymenko\Desktop\TestProject\TestProject\bin\Debug\TestProject.pdb
+C:\Users\Liliia_Klymenko\Desktop\TestProject\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\Liliia_Klymenko\Desktop\TestProject\TestProject\obj\Debug\TestProject.dll
+C:\Users\Liliia_Klymenko\Desktop\TestProject\TestProject\obj\Debug\TestProject.pdb
