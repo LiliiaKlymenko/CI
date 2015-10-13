@@ -14,9 +14,14 @@ namespace TestProject
 		public void TestMethod1()
 		{
 			#region Test data
+            string fileName = null;
 			string address = "https://dl.dropboxusercontent.com/u/98396761/NewTxt.txt";
-            string path = Directory.GetCurrentDirectory() + "NewTxt2.txt";
-			string fileName = @path;  
+            string path = Directory.GetCurrentDirectory() + "NewTxt.txt";           
+            if (File.Exists(path))
+            {
+                fileName = @path + "- Copy";
+            }
+			fileName = @path;  
 			#endregion
 
 			DownloadFile.downloadFileFromURL(address, fileName);
