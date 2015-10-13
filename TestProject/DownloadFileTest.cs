@@ -15,7 +15,7 @@ namespace TestProject
 		{
 			#region Test data
 			string address = "https://dl.dropboxusercontent.com/u/98396761/NewTxt.txt";
-            string path = Directory.GetCurrentDirectory() + "NewTxt1.txt";
+            string path = Directory.GetCurrentDirectory() + "NewTxt2.txt";
 			string fileName = @path;  
 			#endregion
 
