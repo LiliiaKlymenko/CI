@@ -13,18 +13,14 @@ namespace TestProject
 		[TestMethod]
 		public void TestMethod1()
 		{
-			#region Test data
-            string fileName = null;
+			#region Test data            
 			string address = "https://dl.dropboxusercontent.com/u/98396761/NewTxt.txt";
-            string path = "NewTxt.txt";           
-            if (File.Exists(path))
-            {
-                fileName = @path + "- Copy";
-            }
-			else fileName = @path;  
+            string fileName = "NewTxt.txt";
+           
 			#endregion
 
 			DownloadFile.downloadFileFromURL(address, fileName);
+           
 			Assert.IsTrue(File.Exists(fileName));
           
 		}
